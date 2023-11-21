@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int Permutasi (int x, int y,) {
+int Permutasi (int x, int y) {
     int Nilai_Permut, selisih;
     int faktorial = 1;
     selisih = x - y;
@@ -29,7 +29,7 @@ int main() {
           cout << "Masukan Nilai r Kembali: ";
         cin >> r;
 }
-cout << "Nilai Permutasi" << r << "dari" << n << "adalah" <<Permutasi (n,r) <<endl;
+cout << "Nilai Permutasi" << r << "dari" << n << "adalah" <<Permutasi(n,r) <<endl;
 system ("PAUSE");
 return (0);
 }
